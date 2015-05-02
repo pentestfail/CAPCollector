@@ -1,0 +1,39 @@
+{# Author: arcadiy@google.com (Arkadii Yakovets) #}
+
+{% extends "core/base.html.tmpl" %}
+
+{% load humanize %}
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+
+{% block title %}{{ alert.title }}{% endblock title %}
+
+{% block content %}
+  <h2>{{ alert.title }}</h2>
+
+  <div class="metadata subtitle">
+    {% blocktrans with sent=alert.sent|naturaltime %}Posted {{ sent }}{% endblocktrans%} · {% if alert.sender_name %}{{ alert.sender_name }}{% else %}{{ alert.sender }}{% endif %} ·
+    {% blocktrans with expires=alert.expires|naturaltime  %}Expires {{ expires }}{% endblocktrans %}
+  </div>
+  <div class="normal description">
+    {{ alert.description }}
+  </div>
+  {% if alert.instruction %}
+    <div class="normal instructions">
+      <div class="subsection">{% trans "Instructions" %}</div>
+      {{ alert.instruction }}
+   </div>
+  {% endif %}
+
+  <div class="normal locations">
+    <div class="subsection">{% trans "Locations" %}</div>
+    {{ alert.area_desc }}
+    {# TODO(arcadiy): Render shapes on map based on polys/circles. #}
+  </div>
+</div>
+
+<div class="normal back">
+  <a href="{% url "feed" "html" %}">{% trans "Return to list" %}</a>
+ </div>
+{% endblock content %}

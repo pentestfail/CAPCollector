@@ -1,0 +1,36 @@
+{# Author: arcadiy@google.com (Arkadii Yakovets) #}
+
+{% extends "core/base.html.tmpl" %}
+
+{% load humanize %}
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+
+{% block content %}
+  <h2>{% trans "Current Alerts" %}</h2>
+  {% if entries %}
+    <div class="metadata subtitle">
+      {% trans "Last updated" %} ({{ time_zone }}): {{ entries.0.sent }}
+    </div>
+
+    <ul class="alert-list">
+      {% for entry in entries %}
+        <li>
+          <div class="alert-title"><a href="{{ entry.link }}">{{ entry.title }}</a></div>
+          <div class="metadata">
+            <div>
+              {% blocktrans with sent=entry.sent|naturaltime %}Posted {{ sent }}{% endblocktrans %} ·
+              {% blocktrans with expires=entry.expires|naturaltime %}Expires {{ expires }}{% endblocktrans %}
+            </div>
+          </div>
+          {# TODO(arcadiy): Render shapes on map based on polys/circles insetead of area_desc. #}
+          {% if entry.description %}
+            <div class="normal">{{ entry.description }}</div>
+          {% endif %}
+          <div class="normal">{% trans "Locations" %}: {{ entry.area_desc }}</div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock content %}

@@ -1,0 +1,634 @@
+# Hindi language string file for the CAP Collector application.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-02 11:45-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: CAPCollector/auth.py:17
+msgid "Password is too short."
+msgstr ""
+
+#: CAPCollector/auth.py:19
+msgid "Password contains only numbers."
+msgstr ""
+
+#: CAPCollector/auth.py:21
+msgid "Password contains no uppercase letters."
+msgstr ""
+
+#: CAPCollector/auth.py:23
+msgid "Password contains no lowercase letters."
+msgstr ""
+
+#: CAPCollector/auth.py:26
+msgid ""
+"Password must be at least 8 characters long and contain a mixture of "
+"lowercase and uppercase letters, numbers, punctuation, and special "
+"characters (such as ^ or %). Avoid using words more than 4 characters long."
+msgstr ""
+
+#: core/models.py:12
+msgid "Alert UUID"
+msgstr ""
+
+#: core/models.py:13
+msgid "Alert creation time"
+msgstr ""
+
+#: core/models.py:14
+msgid "Alert expiration time"
+msgstr ""
+
+#: core/models.py:15
+msgid "Alert content"
+msgstr ""
+
+#: core/models.py:16
+msgid "Alert replaced by an update or cancel"
+msgstr ""
+
+#: core/models.py:25 core/models.py:42
+msgid "Template Title"
+msgstr ""
+
+#: core/models.py:26 core/models.py:43
+msgid "Template creation time"
+msgstr ""
+
+#: core/models.py:28 core/models.py:45
+msgid "Template last modification time"
+msgstr ""
+
+#: core/models.py:30 core/models.py:47
+msgid "Template Content"
+msgstr ""
+
+#: core/models.py:36
+msgid "Area Template"
+msgstr ""
+
+#: core/models.py:37
+msgid "Area Templates"
+msgstr ""
+
+#: core/models.py:53
+msgid "Message Template"
+msgstr ""
+
+#: core/models.py:54
+msgid "Message Templates"
+msgstr ""
+
+#: core/utils.py:162
+msgid "Alert Message"
+msgstr ""
+
+#: templates/core/alert.html.tmpl:16 templates/core/feed.html.tmpl:23
+#, python-format
+msgid "Posted %(sent)s"
+msgstr ""
+
+#: templates/core/alert.html.tmpl:17 templates/core/feed.html.tmpl:24
+#, python-format
+msgid "Expires %(expires)s"
+msgstr ""
+
+#: templates/core/alert.html.tmpl:24
+msgid "Instructions"
+msgstr ""
+
+#: templates/core/alert.html.tmpl:30 templates/core/feed.html.tmpl:31
+msgid "Locations"
+msgstr ""
+
+#: templates/core/alert.html.tmpl:37
+msgid "Return to list"
+msgstr ""
+
+#: templates/core/base.html.tmpl:13 templates/core/feed.html.tmpl:11
+#: templates/core/feed.xml.tmpl:8 templates/include/header.inc.tmpl:8
+msgid "Current Alerts"
+msgstr ""
+
+#: templates/core/feed.html.tmpl:14
+msgid "Last updated"
+msgstr ""
+
+#: templates/include/footer.inc.tmpl:11
+msgid "Current alerts"
+msgstr ""
+
+#: templates/include/footer.inc.tmpl:17
+msgid "New"
+msgstr ""
+
+#: templates/include/footer.inc.tmpl:23
+msgid "Message"
+msgstr ""
+
+#: templates/include/footer.inc.tmpl:29
+msgid "Area"
+msgstr ""
+
+#: templates/include/footer.inc.tmpl:35
+msgid "Release"
+msgstr ""
+
+#: templates/include/header.inc.tmpl:10 templates/include/header.inc.tmpl:12
+msgid "Alert Details"
+msgstr ""
+
+#: templates/include/header.inc.tmpl:14
+msgid "Alert Area"
+msgstr ""
+
+#: templates/include/header.inc.tmpl:16
+msgid "Review & Release"
+msgstr ""
+
+#: templates/include/placeholder-field-error.inc.tmpl:6
+msgid "Fill in placeholder"
+msgstr ""
+
+#: templates/index.html.tmpl:60
+msgid "Issue a new alert"
+msgstr ""
+
+#: templates/index.html.tmpl:63
+msgid "Close"
+msgstr ""
+
+#: templates/index.html.tmpl:66
+msgid "Update This Alert"
+msgstr ""
+
+#: templates/index.html.tmpl:67
+msgid "Cancel This Alert"
+msgstr ""
+
+#: templates/index.html.tmpl:68
+msgid "View Alert XML"
+msgstr ""
+
+#: templates/index.html.tmpl:73
+msgid "Show alert feed"
+msgstr ""
+
+#: templates/index.html.tmpl:75
+msgid "About CAPCreator&trade;"
+msgstr ""
+
+#: templates/index.html.tmpl:78
+msgid "About CAPCreator"
+msgstr ""
+
+#: templates/index.html.tmpl:114
+msgid "Message template"
+msgstr ""
+
+#: templates/index.html.tmpl:117 templates/index.html.tmpl.py:407
+msgid "None"
+msgstr ""
+
+#: templates/index.html.tmpl:121
+msgid "Create a new message template"
+msgstr ""
+
+#: templates/index.html.tmpl:127
+msgid "Reapply template"
+msgstr ""
+
+#: templates/index.html.tmpl:135
+msgid "Type of message"
+msgstr ""
+
+#: templates/index.html.tmpl:137
+msgid "Status"
+msgstr ""
+
+#: templates/index.html.tmpl:139
+msgid "Actual"
+msgstr ""
+
+#: templates/index.html.tmpl:140
+msgid "Exercise"
+msgstr ""
+
+#: templates/index.html.tmpl:141
+msgid "Test"
+msgstr ""
+
+#: templates/index.html.tmpl:142
+msgid "Draft"
+msgstr ""
+
+#: templates/index.html.tmpl:144
+msgid "Type"
+msgstr ""
+
+#: templates/index.html.tmpl:146
+msgid "Alert"
+msgstr ""
+
+#: templates/index.html.tmpl:147
+msgid "Update"
+msgstr ""
+
+#: templates/index.html.tmpl:148
+msgid "Cancel"
+msgstr ""
+
+#: templates/index.html.tmpl:150
+msgid "Scope"
+msgstr ""
+
+#: templates/index.html.tmpl:152
+msgid "Public"
+msgstr ""
+
+#: templates/index.html.tmpl:153
+msgid "Restricted"
+msgstr ""
+
+#: templates/index.html.tmpl:154
+msgid "Private"
+msgstr ""
+
+#: templates/index.html.tmpl:160
+msgid "Type of hazard threat"
+msgstr ""
+
+#: templates/index.html.tmpl:160
+msgid "and Recommended protective action"
+msgstr ""
+
+#: templates/index.html.tmpl:162 templates/index.html.tmpl.py:164
+msgid "Type of hazard"
+msgstr ""
+
+#: templates/index.html.tmpl:165
+msgid "Geophysical"
+msgstr ""
+
+#: templates/index.html.tmpl:166
+msgid "Weather"
+msgstr ""
+
+#: templates/index.html.tmpl:167
+msgid "Public safety"
+msgstr ""
+
+#: templates/index.html.tmpl:168
+msgid "Security"
+msgstr ""
+
+#: templates/index.html.tmpl:169
+msgid "Rescue"
+msgstr ""
+
+#: templates/index.html.tmpl:170
+msgid "Fire"
+msgstr ""
+
+#: templates/index.html.tmpl:171
+msgid "Health"
+msgstr ""
+
+#: templates/index.html.tmpl:172
+msgid "Environmental"
+msgstr ""
+
+#: templates/index.html.tmpl:173
+msgid "Transportation"
+msgstr ""
+
+#: templates/index.html.tmpl:174
+msgid "Infrastructure/Utilities"
+msgstr ""
+
+#: templates/index.html.tmpl:175
+msgid "Weapon of mass destruction"
+msgstr ""
+
+#: templates/index.html.tmpl:176
+msgid "Not otherwise categorized"
+msgstr ""
+
+#: templates/index.html.tmpl:178
+msgid "Response type"
+msgstr ""
+
+#: templates/index.html.tmpl:180
+msgid "Recommended action"
+msgstr ""
+
+#: templates/index.html.tmpl:181
+msgid "Take shelter"
+msgstr ""
+
+#: templates/index.html.tmpl:182
+msgid "Evacuate"
+msgstr ""
+
+#: templates/index.html.tmpl:183
+msgid "Make preparations"
+msgstr ""
+
+#: templates/index.html.tmpl:184
+msgid "Execute pre-planned action"
+msgstr ""
+
+#: templates/index.html.tmpl:185
+msgid "Avoid the area"
+msgstr ""
+
+#: templates/index.html.tmpl:186
+msgid "Monitor conditions"
+msgstr ""
+
+#: templates/index.html.tmpl:187
+msgid "Resume normal activities"
+msgstr ""
+
+#: templates/index.html.tmpl:188
+msgid "Take no action"
+msgstr ""
+
+#: templates/index.html.tmpl:189
+msgid "Evaluate situation [not for public alerts]"
+msgstr ""
+
+#: templates/index.html.tmpl:195
+msgid "Message priority"
+msgstr ""
+
+#: templates/index.html.tmpl:197 templates/index.html.tmpl.py:199
+msgid "Urgency"
+msgstr ""
+
+#: templates/index.html.tmpl:200
+msgid "Immediate"
+msgstr ""
+
+#: templates/index.html.tmpl:201
+msgid "Expected"
+msgstr ""
+
+#: templates/index.html.tmpl:202
+msgid "Future"
+msgstr ""
+
+#: templates/index.html.tmpl:203
+msgid "Already occurred"
+msgstr ""
+
+#: templates/index.html.tmpl:206 templates/index.html.tmpl.py:208
+msgid "Severity"
+msgstr ""
+
+#: templates/index.html.tmpl:209
+msgid "Extreme"
+msgstr ""
+
+#: templates/index.html.tmpl:210
+msgid "Severe"
+msgstr ""
+
+#: templates/index.html.tmpl:211
+msgid "Moderate"
+msgstr ""
+
+#: templates/index.html.tmpl:212
+msgid "Minor"
+msgstr ""
+
+#: templates/index.html.tmpl:215 templates/index.html.tmpl.py:217
+msgid "Certainty"
+msgstr ""
+
+#: templates/index.html.tmpl:218
+msgid "Observed event"
+msgstr ""
+
+#: templates/index.html.tmpl:219
+msgid "Likely"
+msgstr ""
+
+#: templates/index.html.tmpl:220
+msgid "Possible"
+msgstr ""
+
+#: templates/index.html.tmpl:221
+msgid "Unlikely"
+msgstr ""
+
+#: templates/index.html.tmpl:228
+msgid "Alert expiration"
+msgstr ""
+
+#: templates/index.html.tmpl:233
+msgid "15 Minutes"
+msgstr ""
+
+#: templates/index.html.tmpl:234
+msgid "30 Minutes"
+msgstr ""
+
+#: templates/index.html.tmpl:235
+msgid "45 Minutes"
+msgstr ""
+
+#: templates/index.html.tmpl:236
+msgid "1 Hour"
+msgstr ""
+
+#: templates/index.html.tmpl:237
+msgid "90 Minutes"
+msgstr ""
+
+#: templates/index.html.tmpl:238
+msgid "2 Hours"
+msgstr ""
+
+#: templates/index.html.tmpl:239
+msgid "3 Hours"
+msgstr ""
+
+#: templates/index.html.tmpl:240
+msgid "4 Hours"
+msgstr ""
+
+#: templates/index.html.tmpl:241
+msgid "5 Hours"
+msgstr ""
+
+#: templates/index.html.tmpl:242
+msgid "6 Hours"
+msgstr ""
+
+#: templates/index.html.tmpl:243
+msgid "Other"
+msgstr ""
+
+#: templates/index.html.tmpl:248
+msgid "Manual effective expiration"
+msgstr ""
+
+#: templates/index.html.tmpl:252
+msgid "Enter expiration time in minutes"
+msgstr ""
+
+#: templates/index.html.tmpl:260 templates/index.html.tmpl.py:383
+#: templates/index.html.tmpl:457
+msgid "Required fields"
+msgstr ""
+
+#: templates/index.html.tmpl:262
+msgid "NEXT: Add Alert Details"
+msgstr ""
+
+#: templates/index.html.tmpl:277
+msgid "Language"
+msgstr ""
+
+#: templates/index.html.tmpl:290
+msgid "Who is issuing this alert"
+msgstr ""
+
+#: templates/index.html.tmpl:303
+msgid "Event"
+msgstr ""
+
+#: templates/index.html.tmpl:315
+msgid "Short-text headline"
+msgstr ""
+
+#: templates/index.html.tmpl:316
+msgid "characters left)"
+msgstr ""
+
+#: templates/index.html.tmpl:324
+msgid "140 characters maximum"
+msgstr ""
+
+#: templates/index.html.tmpl:330
+msgid "Describe the event or hazard"
+msgstr ""
+
+#: templates/index.html.tmpl:342
+msgid "What should affected people do"
+msgstr ""
+
+#: templates/index.html.tmpl:354
+msgid "Who is media contact"
+msgstr ""
+
+#: templates/index.html.tmpl:362
+msgid "Include telephone and/or email"
+msgstr ""
+
+#: templates/index.html.tmpl:368
+msgid "Alternate alert website"
+msgstr ""
+
+#: templates/index.html.tmpl:376
+msgid "URL for a separate HTML version of this alert"
+msgstr ""
+
+#: templates/index.html.tmpl:384
+msgid "Invalid {{ template placeholders }}"
+msgstr ""
+
+#: templates/index.html.tmpl:386
+msgid "NEXT: Target Area"
+msgstr ""
+
+#: templates/index.html.tmpl:404
+msgid "Add area from template"
+msgstr ""
+
+#: templates/index.html.tmpl:411
+msgid "Create a new area template"
+msgstr ""
+
+#: templates/index.html.tmpl:417
+msgid "Clear all area templates"
+msgstr ""
+
+#: templates/index.html.tmpl:424
+msgid "Describe the alert area"
+msgstr ""
+
+#: templates/index.html.tmpl:444
+msgid "Drag"
+msgstr ""
+
+#: templates/index.html.tmpl:446
+msgid "Circle"
+msgstr ""
+
+#: templates/index.html.tmpl:448
+msgid "Shape"
+msgstr ""
+
+#: templates/index.html.tmpl:449
+msgid "Clear last"
+msgstr ""
+
+#: templates/index.html.tmpl:450
+msgid "Clear all"
+msgstr ""
+
+#: templates/index.html.tmpl:458
+msgid "Invalid {{ placeholders }}"
+msgstr ""
+
+#: templates/index.html.tmpl:459
+msgid "Fill in at least one of geocode, polygon or circle"
+msgstr ""
+
+#: templates/index.html.tmpl:461
+msgid "NEXT: Review &amp; release"
+msgstr ""
+
+#: templates/index.html.tmpl:475
+msgid "Review message content"
+msgstr ""
+
+#: templates/index.html.tmpl:478
+msgid "Authorize release"
+msgstr ""
+
+#: templates/index.html.tmpl:479
+msgid "User ID"
+msgstr ""
+
+#: templates/index.html.tmpl:480
+msgid "Password"
+msgstr ""
+
+#: templates/index.html.tmpl:484
+msgid "Release alert"
+msgstr ""
+
+#: templates/index.html.tmpl:485
+msgid "Sending alert"
+msgstr ""
+
+#: templates/login.html.tmpl:12
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: templates/login.html.tmpl:21
+msgid "Forgot password?"
+msgstr ""
