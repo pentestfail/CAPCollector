@@ -15,6 +15,7 @@ RUN apt-get -q update ; \
 ADD requirements.txt /app/
 
 # Resolve Python modules dependencies.
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Copy application source files.
