@@ -3,7 +3,6 @@
 # See https://docs.docker.com/#installation-guides for Docker installation.
 
 FROM erichiggins/appengine-python27
-MAINTAINER Arkadii Yakovets <arcadiy@google.com>
 
 # Copy packages file.
 ADD packages.txt /app/
