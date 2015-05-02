@@ -2,7 +2,7 @@
 # See https://docs.docker.com/reference/builder/ for configuration references.
 # See https://docs.docker.com/#installation-guides for Docker installation.
 
-FROM google/appengine-python27
+FROM erichiggins/appengine-python27
 MAINTAINER Arkadii Yakovets <arcadiy@google.com>
 
 # Copy packages file.
