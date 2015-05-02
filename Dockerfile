@@ -2,7 +2,7 @@
 # See https://docs.docker.com/reference/builder/ for configuration references.
 # See https://docs.docker.com/#installation-guides for Docker installation.
 
-FROM erichiggins/appengine-python27
+FROM google/python
 
 # Copy packages file.
 ADD packages.txt /app/
